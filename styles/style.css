@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 /* font style */
@@ -179,6 +179,7 @@ main section{
 .skills-container{
     display: flex;
     gap: 24px;
+    /* justify-content: space-between; */
     
 }
 .skill{
@@ -193,4 +194,50 @@ main section{
 }
 .skill-description{
     padding: 30px;
+}
+
+/* resume section style */
+/* .section-title{
+
+} */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;  
+}
+
+.resume-container{
+    display: flex;
+    gap: 71px;
+    margin-top: 110px;
+}
+
+.experience{
+    margin-top: 30px;
+}
+
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+.experience-subtitle{
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+    padding-right: 30px;
+}
+
+.resume hr{
+    margin: 30px 0px;
+}
+
+.resume button{
+    margin-top: 50px;
 }
