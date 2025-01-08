@@ -241,3 +241,54 @@ main section{
 .resume button{
     margin-top: 50px;
 }
+
+/* footer section styels */
+footer{
+    margin-top: 113px;
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer .section-title{
+    margin-bottom: 28px;
+}
+
+footer .section-description{
+    margin-bottom: 30px;
+}
+
+footer input[type="text"],footer input[type="email"] {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    padding:5px 30px ;
+    border: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+}
+footer textarea{
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    padding:5px 30px ;
+    border: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+footer .social-media{
+    display: flex;
+    gap: 24px;
+}
+/* .footer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+} */
